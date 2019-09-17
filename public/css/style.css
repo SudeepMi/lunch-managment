@@ -1,0 +1,164 @@
+
+.form_body {
+    margin-top: 2px;
+    background: #78ff0075;
+    padding: 20px 5px;
+}
+
+nav
+{
+    background: white;
+    margin-bottom: 20px;
+}
+
+nav .navbar-brand{
+    color: black;
+}
+
+.inline
+{
+    display: inline-block;
+}
+.right
+{
+    float: right;
+}
+.left
+{
+    float: left;
+}
+.form_header{
+    height: 50px;
+    padding: 5px;
+    border-bottom: 1px solid black;
+}
+.login-wrapper{
+    background-color: aqua;
+
+}
+.login-header{
+    background-color: #6c757d;
+    padding: 10px;
+    color: aliceblue;
+    font-size: 20px;
+}
+.login-body{
+    padding: 10px;
+}
+.panel{
+    background-color: blue;
+}
+.panel-heading{
+    background: #6c757d;
+    padding: 5px;
+    color: white;
+}
+.panel-body{
+    background-color:#36364a;
+    padding: 10px;
+    color: aliceblue;
+}
+.nav-link a
+{
+    color: black;
+    text-transform: capitalize;
+}
+.nav-link a:hover{
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.portlet{
+    background: white;
+    box-shadow: 1px 2px 5px -2px #000000a3;
+}
+.portlet-header{
+    display: flow-root;
+    padding: 5px;
+    border-bottom: 1px solid #0000007d;
+}
+.portlet-body{
+    padding: 10px 15px;
+}
+
+.portlet_toolbar{
+    padding: 5px;
+    display: block;
+}
+
+.shadow-r{
+    box-shadow: 0px 3px 7px -3px #00000085;
+}
+
+.toolbar{
+    height: 50px;
+    width: 100%;
+    background: white;
+    border-bottom: 1px solid #0000002e;
+    padding: 7px 15px;
+}
+
+.toolbar-info{
+    width: 40%;
+    height: auto;
+    padding: 5px;
+}
+
+.toolbar-info-title{
+    font-size: 20px;
+    display: flex;
+}
+.toolbar-info-title .title{
+    padding: 0px 10px;
+}
+.dataTables_wrapper {
+    padding: 10px !important;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #080c69;
+    border-color: #4b27fd;
+    color: #fff;
+}
+
+.btn-transparent{
+    border: 1px solid black;
+}
+.export-tool{
+    top: 48px;
+    float: right;
+    width: 40px;
+    left: auto;
+}
+.btn-danger:hover {
+    color: #fff;
+    background-color: #0e1fec;
+    border-color: #2d1f2c;
+}
+.true{
+    color: blueviolet;
+    font-weight: 800;
+}
+.false{
+    color: brown;
+    font-weight: 800;
+}
+
+.alert.alert-danger {
+    background: #280054;
+    border: 1px solid #6627fd;
+    color: #fff;
+}
+@media (min-width: 1200px){
+.container {
+    max-width: 1270px !important;
+}
+}
+
+@media (max-width: 576px){
+.container {
+    max-width: 650px !important;
+}
+}
+
